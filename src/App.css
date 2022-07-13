@@ -1,9 +1,10 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -15,13 +16,13 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 5vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* font-size: calc(10px + 2vmin); */
+  /* color: white; */
 }
 
 .App-link {
@@ -39,4 +40,17 @@
 
 button {
   font-size: calc(10px + 2vmin);
+}
+
+.table {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.tblrow {
+  margin-bottom: 10px;
+  background-color: #dfff10;
+  border-bottom: 1px solid black;
 }
